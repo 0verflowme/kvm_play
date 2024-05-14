@@ -1,0 +1,10 @@
+[package]
+name = "kvm_play"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nix = "0.28.0"
+kvm-bindings = "0.8.1"
+kvm-ioctls = "0.17.0"
+keystone = "0.9.0"
